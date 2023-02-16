@@ -52,8 +52,6 @@ functions:
     events:
      - http: ANY /{proxy+}
      - http: ANY /
-    environment:
-      DB_URL: ${DB_URL}
       
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
