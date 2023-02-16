@@ -32,5 +32,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: deploy
-        run: serverless deploy --stage production
+        run: serverless deploy
 
